@@ -75,7 +75,7 @@ Los siguientes metodos y funciones son aquellos que no aperantan tener un uso de
 
 #### 2.1 Clases
 - `ItemBrand`
-- 
+
 #### 2.2 Metodos
 - `MetodogetTimestampHDDelivered`
 - `getDeliveryGuyData`
@@ -83,7 +83,7 @@ Los siguientes metodos y funciones son aquellos que no aperantan tener un uso de
 - `getReasonForOrderReturned`
 - `getRt_delivery_guy_profile`
 
-### 3. Separaciion de responsabilidades
+### 3. Separacion de responsabilidades
 Se propone la separacion de responsabilidades en todos los paquetes *DAO* ya que estos cuentan tanto con logica como
 con logica de acceso a datos, que siguiendo un esquema de *Clean Architecture*, para temas relacionados con escalabilidad
 y mantenibilidad estos accesos deben estar separados y conectados mediante interfaces.
