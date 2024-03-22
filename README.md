@@ -46,7 +46,7 @@ mas de una sola funcion que va en contra de algunos de los principios *SOLID* y 
 
 ## Tecnicas de Refactoring
 ### 1. Clean Architecture
-Se propone la implementacion de una arquitectura limpia para una mejor organizacion de paquetes y entendimiento del
+Se propone la implementacion de una arquitectura limpia para una mejor organizacion de paquetes y entendimiento del 
 proyecto.
 
 ![Refactoring 01](images/refactoring/refactoring-01.png)
