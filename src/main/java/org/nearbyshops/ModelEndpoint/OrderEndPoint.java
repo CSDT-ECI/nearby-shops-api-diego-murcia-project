@@ -1,6 +1,6 @@
 package org.nearbyshops.ModelEndpoint;
 
-import org.nearbyshops.Model.Order;
+import org.nearbyshops.model.Order;
 
 import java.util.List;
 

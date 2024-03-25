@@ -2,9 +2,9 @@ package org.nearbyshops.RESTEndpointRoles;
 
 
 
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Globals.SendSMS;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.globals.SendSMS;
 import org.nearbyshops.ModelRoles.User;
 import org.simplejavamail.email.Email;
 import org.simplejavamail.email.EmailBuilder;
@@ -12,12 +12,10 @@ import org.simplejavamail.email.EmailBuilder;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.math.BigInteger;
 import java.sql.Timestamp;
-import java.util.Random;
 
-import static org.nearbyshops.Globals.Globals.generateOTP;
-import static org.nearbyshops.Globals.Globals.getMailerInstance;
+import static org.nearbyshops.globals.Globals.generateOTP;
+import static org.nearbyshops.globals.Globals.getMailerInstance;
 
 /**
  * Created by sumeet on 14/8/17.

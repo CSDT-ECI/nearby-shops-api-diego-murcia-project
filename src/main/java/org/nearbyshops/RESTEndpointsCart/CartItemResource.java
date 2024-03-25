@@ -1,9 +1,9 @@
 package org.nearbyshops.RESTEndpointsCart;
 
-import org.nearbyshops.DAOsPrepared.ItemDAO;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.Cart;
-import org.nearbyshops.Model.CartItem;
+import org.nearbyshops.prepareddaos.ItemDAO;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.Cart;
+import org.nearbyshops.model.CartItem;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.GenericEntity;

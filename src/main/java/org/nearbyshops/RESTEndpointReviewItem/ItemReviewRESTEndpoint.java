@@ -2,9 +2,9 @@ package org.nearbyshops.RESTEndpointReviewItem;
 
 
 
-import org.nearbyshops.DAOPreparedReviewItem.ItemReviewDAOPrepared;
-import org.nearbyshops.DAORoles.DAOUserNew;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.preparedreviewitemdao.ItemReviewDAOPrepared;
+import org.nearbyshops.rolesdao.DAOUserNew;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelEndpointReview.ItemReviewEndPoint;
 import org.nearbyshops.ModelReviewItem.ItemReview;
 import org.nearbyshops.ModelReviewItem.ItemReviewStatRow;

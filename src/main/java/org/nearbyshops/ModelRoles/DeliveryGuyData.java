@@ -1,6 +1,6 @@
 package org.nearbyshops.ModelRoles;
 
-import org.nearbyshops.Model.Shop;
+import org.nearbyshops.model.Shop;
 
 /**
  * Created by sumeet on 28/8/17.

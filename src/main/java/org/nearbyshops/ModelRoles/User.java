@@ -1,6 +1,5 @@
 package org.nearbyshops.ModelRoles;
 
-import org.nearbyshops.Model.Cart;
 import org.nearbyshops.ModelSettings.ServiceConfigurationLocal;
 
 import java.sql.Timestamp;

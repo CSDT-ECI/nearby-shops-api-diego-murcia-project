@@ -1,12 +1,12 @@
 package org.nearbyshops.RESTEndpoints;
 
 import net.coobird.thumbnailator.Thumbnails;
-import org.nearbyshops.DAOBilling.DAOAddBalance;
-import org.nearbyshops.DAOsPrepared.ShopDAO;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.Image;
-import org.nearbyshops.Model.Shop;
+import org.nearbyshops.billingdao.DAOAddBalance;
+import org.nearbyshops.prepareddaos.ShopDAO;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.Image;
+import org.nearbyshops.model.Shop;
 import org.nearbyshops.ModelEndpoint.ShopEndPoint;
 import org.nearbyshops.ModelRoles.StaffPermissions;
 import org.nearbyshops.ModelRoles.User;
@@ -782,7 +782,7 @@ public class ShopResource {
 
 
 
-		int rowCount = addBalanceDAO.add_balance_to_shop(shopAdminID,amountToAdd);
+		int rowCount = addBalanceDAO.addBalanceToShop(shopAdminID,amountToAdd);
 
 
 		if(rowCount >= 1)

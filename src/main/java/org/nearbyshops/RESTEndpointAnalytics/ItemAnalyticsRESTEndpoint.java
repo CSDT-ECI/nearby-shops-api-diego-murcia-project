@@ -1,9 +1,9 @@
 package org.nearbyshops.RESTEndpointAnalytics;
 
 
-import org.nearbyshops.DAOAnalytics.DAOItemAnalytics;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.analyticsdao.ItemAnalyticsDao;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelAnalytics.ItemAnalytics;
 import org.nearbyshops.ModelAnalytics.ItemAnalyticsEndpoint;
 
@@ -11,14 +11,12 @@ import org.nearbyshops.ModelAnalytics.ItemAnalyticsEndpoint;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.math.BigInteger;
-import java.sql.Timestamp;
 
 @Path("/api/v1/ItemAnalytics")
 public class ItemAnalyticsRESTEndpoint {
 
 
-    private DAOItemAnalytics itemAnalyticsDAO = Globals.daoItemAnalytics;
+    private ItemAnalyticsDao itemAnalyticsDAO = Globals.itemAnalyticsDao;
 
 
 

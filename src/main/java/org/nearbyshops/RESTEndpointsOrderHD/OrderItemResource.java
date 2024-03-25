@@ -1,12 +1,9 @@
 package org.nearbyshops.RESTEndpointsOrderHD;
 
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.Order;
-import org.nearbyshops.Model.OrderItem;
-import org.nearbyshops.Model.Shop;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.OrderItem;
 import org.nearbyshops.ModelEndpoint.OrderItemEndPoint;
-import org.nearbyshops.ModelRoles.User;
 
 import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.*;

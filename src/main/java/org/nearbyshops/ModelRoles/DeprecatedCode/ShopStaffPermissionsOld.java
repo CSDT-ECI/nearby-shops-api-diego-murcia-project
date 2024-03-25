@@ -1,6 +1,6 @@
 package org.nearbyshops.ModelRoles.DeprecatedCode;
 
-import org.nearbyshops.Model.Shop;
+import org.nearbyshops.model.Shop;
 import org.nearbyshops.ModelRoles.User;
 
 import java.sql.Timestamp;

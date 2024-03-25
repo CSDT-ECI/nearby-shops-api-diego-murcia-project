@@ -1,14 +1,14 @@
 package org.nearbyshops.RESTEndpoints;
 
-import org.nearbyshops.DAOsPrepared.ItemCategoryDAO;
-import org.nearbyshops.DAOsPrepared.ShopItemByItemDAO;
-import org.nearbyshops.DAOsPrepared.ShopItemByShopDAO;
-import org.nearbyshops.DAOsPrepared.ShopItemDAO;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.ItemCategory;
-import org.nearbyshops.Model.Shop;
-import org.nearbyshops.Model.ShopItem;
+import org.nearbyshops.prepareddaos.ItemCategoryDAO;
+import org.nearbyshops.prepareddaos.ShopItemByItemDAO;
+import org.nearbyshops.prepareddaos.ShopItemByShopDAO;
+import org.nearbyshops.prepareddaos.ShopItemDAO;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.ItemCategory;
+import org.nearbyshops.model.Shop;
+import org.nearbyshops.model.ShopItem;
 import org.nearbyshops.ModelEndpoint.ShopItemEndPoint;
 import org.nearbyshops.ModelRoles.ShopStaffPermissions;
 import org.nearbyshops.ModelRoles.User;

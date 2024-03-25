@@ -1,6 +1,6 @@
 package org.nearbyshops.ModelItemSpecification;
 
-import org.nearbyshops.Model.Item;
+import org.nearbyshops.model.Item;
 
 /**
  * Created by sumeet on 2/3/17.

@@ -1,5 +1,5 @@
 package org.nearbyshops.ModelReviewShop;
-import org.nearbyshops.Model.Shop;
+import org.nearbyshops.model.Shop;
 import org.nearbyshops.ModelRoles.User;
 
 

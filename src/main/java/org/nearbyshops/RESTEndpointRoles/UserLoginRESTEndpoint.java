@@ -1,10 +1,10 @@
 package org.nearbyshops.RESTEndpointRoles;
 
 import net.coobird.thumbnailator.Thumbnails;
-import org.nearbyshops.DAORoles.DAOUserNew;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.Image;
+import org.nearbyshops.rolesdao.DAOUserNew;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.Image;
 import org.nearbyshops.ModelRoles.ShopStaffPermissions;
 import org.nearbyshops.ModelRoles.StaffPermissions;
 import org.nearbyshops.ModelRoles.User;
