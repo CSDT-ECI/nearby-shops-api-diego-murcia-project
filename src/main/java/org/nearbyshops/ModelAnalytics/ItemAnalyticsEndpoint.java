@@ -1,7 +1,5 @@
 package org.nearbyshops.ModelAnalytics;
 
-import org.nearbyshops.Model.Item;
-
 import java.util.List;
 
 /**

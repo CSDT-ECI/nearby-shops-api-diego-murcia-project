@@ -1,5 +1,5 @@
 package org.nearbyshops.ModelReviewItem;
-import org.nearbyshops.Model.Item;
+import org.nearbyshops.model.Item;
 import org.nearbyshops.ModelRoles.User;
 
 import java.sql.Timestamp;

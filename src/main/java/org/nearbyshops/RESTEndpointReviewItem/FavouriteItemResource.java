@@ -1,7 +1,7 @@
 package org.nearbyshops.RESTEndpointReviewItem;
 
-import org.nearbyshops.DAOPreparedReviewItem.FavoriteItemDAOPrepared;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.preparedreviewitemdao.FavoriteItemDAOPrepared;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelEndpointReview.FavouriteItemEndpoint;
 import org.nearbyshops.ModelReviewItem.FavouriteItem;
 

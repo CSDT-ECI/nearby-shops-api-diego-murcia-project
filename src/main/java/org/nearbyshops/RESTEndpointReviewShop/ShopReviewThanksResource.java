@@ -1,7 +1,7 @@
 package org.nearbyshops.RESTEndpointReviewShop;
 
-import org.nearbyshops.DAOPreparedReviewShop.ShopReviewThanksDAOPrepared;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.preparedreviewshopdao.ShopReviewThanksDAOPrepared;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelEndpointReview.ShopReviewThanksEndpoint;
 import org.nearbyshops.ModelReviewShop.ShopReviewThanks;
 

@@ -1,9 +1,8 @@
 package org.nearbyshops.ModelEndpoint;
 
-import org.nearbyshops.Model.Item;
-import org.nearbyshops.Model.ItemCategory;
+import org.nearbyshops.model.Item;
+import org.nearbyshops.model.ItemCategory;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

@@ -3,11 +3,11 @@ package org.nearbyshops.RESTEndpoints;
 import net.coobird.thumbnailator.Thumbnails;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import org.nearbyshops.DAOsPrepared.ItemImagesDAO;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.Image;
-import org.nearbyshops.Model.ItemImage;
+import org.nearbyshops.prepareddaos.ItemImagesDAO;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.Image;
+import org.nearbyshops.model.ItemImage;
 import org.nearbyshops.ModelEndpoint.ItemImageEndPoint;
 import org.nearbyshops.ModelRoles.User;
 

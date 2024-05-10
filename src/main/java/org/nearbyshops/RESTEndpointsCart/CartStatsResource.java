@@ -1,7 +1,7 @@
 package org.nearbyshops.RESTEndpointsCart;
 
-import org.nearbyshops.DAOsPrepared.ShopDAO;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.prepareddaos.ShopDAO;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelStats.CartStats;
 
 import javax.ws.rs.*;

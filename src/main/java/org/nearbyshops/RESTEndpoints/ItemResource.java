@@ -1,40 +1,32 @@
 package org.nearbyshops.RESTEndpoints;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 import net.coobird.thumbnailator.Thumbnails;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import org.nearbyshops.DAOsPrepared.ItemCategoryDAO;
-import org.nearbyshops.DAOsPrepared.ItemDAO;
-import org.nearbyshops.DAOsPrepared.ItemDAOJoinOuter;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.Image;
-import org.nearbyshops.Model.Item;
-import org.nearbyshops.Model.ItemCategory;
+import org.nearbyshops.prepareddaos.ItemCategoryDAO;
+import org.nearbyshops.prepareddaos.ItemDAO;
+import org.nearbyshops.prepareddaos.ItemDAOJoinOuter;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.Image;
+import org.nearbyshops.model.Item;
+import org.nearbyshops.model.ItemCategory;
 import org.nearbyshops.ModelEndpoint.ItemEndPoint;
 import org.nearbyshops.ModelRoles.StaffPermissions;
 import org.nearbyshops.ModelRoles.User;
 
 import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.*;
-import javax.ws.rs.container.AsyncResponse;
-import javax.ws.rs.container.Suspended;
-import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Type;
 import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
 import java.util.List;
 
 

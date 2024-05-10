@@ -1,6 +1,6 @@
 package org.nearbyshops.RESTEndpointsCart;
 
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelDelivery.DeliveryAddress;
 
 import javax.ws.rs.*;

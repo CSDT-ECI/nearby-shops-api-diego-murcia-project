@@ -1,16 +1,14 @@
 package org.nearbyshops.RESTEndpointRoles;
 
-import com.google.gson.Gson;
 import okhttp3.Credentials;
-import okhttp3.Headers;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import org.nearbyshops.DAORoles.DAOLoginUsingOTP;
-import org.nearbyshops.DAORoles.DAOPhoneVerificationCodes;
-import org.nearbyshops.DAORoles.DAOUserNew;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Globals.SendSMS;
+import org.nearbyshops.rolesdao.DAOLoginUsingOTP;
+import org.nearbyshops.rolesdao.DAOPhoneVerificationCodes;
+import org.nearbyshops.rolesdao.DAOUserNew;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.globals.SendSMS;
 import org.nearbyshops.ModelRoles.PhoneVerificationCode;
 import org.nearbyshops.ModelRoles.ShopStaffPermissions;
 import org.nearbyshops.ModelRoles.StaffPermissions;
@@ -23,10 +21,9 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.sql.Timestamp;
 import java.util.Base64;
-import java.util.Random;
 import java.util.StringTokenizer;
 
-import static org.nearbyshops.Globals.Globals.generateOTP;
+import static org.nearbyshops.globals.Globals.generateOTP;
 
 
 @Path("/api/v1/User/LoginUsingOTP")

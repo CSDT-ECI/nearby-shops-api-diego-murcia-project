@@ -1,11 +1,10 @@
 package org.nearbyshops.RESTEndpointRoles;
 
 
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelRoles.DeliveryGuyData;
 import org.nearbyshops.ModelRoles.Endpoints.UserEndpoint;
-import org.nearbyshops.ModelRoles.ShopStaffPermissions;
 import org.nearbyshops.ModelRoles.User;
 
 import javax.annotation.security.RolesAllowed;
@@ -13,8 +12,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import static org.nearbyshops.Globals.Globals.daoDeliveryGuy;
-import static org.nearbyshops.Globals.Globals.daoShopStaff;
+import static org.nearbyshops.globals.Globals.daoDeliveryGuy;
 
 /**
  * Created by sumeet on 30/8/17.

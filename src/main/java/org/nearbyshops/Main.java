@@ -1,13 +1,11 @@
 package org.nearbyshops;
 
-import okhttp3.internal.http2.Settings;
-import org.apache.commons.configuration2.Configuration;
 import org.glassfish.jersey.jetty.JettyHttpContainerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
-import org.nearbyshops.Globals.GlobalConfig;
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
-import org.nearbyshops.Model.*;
+import org.nearbyshops.globals.GlobalConfig;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
+import org.nearbyshops.model.*;
 import org.nearbyshops.ModelAnalytics.ItemAnalytics;
 import org.nearbyshops.ModelAnalytics.ShopAnalytics;
 import org.nearbyshops.ModelBilling.Transaction;
@@ -124,7 +122,7 @@ public class Main {
             statement.executeUpdate(ShopStaffPermissions.createTablePostgres);
             statement.executeUpdate(DeliveryGuyData.createTablePostgres);
 
-            statement.executeUpdate(Cart.createTableCartPostgres);
+            statement.executeUpdate(Cart.CREATE_TABLE_CART_POSTGRES);
             statement.executeUpdate(CartItem.createtableCartItemPostgres);
             statement.executeUpdate(DeliveryAddress.createTableDeliveryAddressPostgres);
 

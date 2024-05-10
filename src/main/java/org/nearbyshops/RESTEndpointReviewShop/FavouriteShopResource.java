@@ -1,7 +1,7 @@
 package org.nearbyshops.RESTEndpointReviewShop;
 
-import org.nearbyshops.DAOPreparedReviewShop.FavoriteBookDAOPrepared;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.preparedreviewshopdao.FavoriteBookDAOPrepared;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelEndpointReview.FavouriteShopEndpoint;
 import org.nearbyshops.ModelReviewShop.FavouriteShop;
 

@@ -1,7 +1,7 @@
 package org.nearbyshops.ModelEndpoint;
 
 
-import org.nearbyshops.Model.ItemImage;
+import org.nearbyshops.model.ItemImage;
 
 import java.util.List;
 

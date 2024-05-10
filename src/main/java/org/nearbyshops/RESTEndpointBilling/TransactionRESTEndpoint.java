@@ -1,8 +1,8 @@
 package org.nearbyshops.RESTEndpointBilling;
 
 
-import org.nearbyshops.Globals.GlobalConstants;
-import org.nearbyshops.Globals.Globals;
+import org.nearbyshops.globals.GlobalConstants;
+import org.nearbyshops.globals.Globals;
 import org.nearbyshops.ModelBilling.TransactionEndpoint;
 import org.nearbyshops.ModelRoles.User;
 
