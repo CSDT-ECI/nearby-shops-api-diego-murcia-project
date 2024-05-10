@@ -30,3 +30,5 @@
   de agregar nuevas funcionalidades. Por lo tanto, se recomienda adoptar en primer lugar una 
   arquitectura orientada a microservicios, y en segundo lugar, una arquitectura limpia 
   (arquitectura hexagonal) para que el proyecto sea mas simple y facil de entender.
+
+[🏠 Índice](./index.html) | [🔙](./refactoring-codesmells.html) | [🔜](./testing-debt.html)

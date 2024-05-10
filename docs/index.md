@@ -5,7 +5,6 @@
 - [🚦 Static Analysis](./static-analysis.html)
 - [🤖 DevEx + AI](./devex-ai.html)
 - [⚙️ GitHub Actions](./github-actions.html)
-- [🏗️ Architectural Debt](./architectural-debt.html)
 
 # 🛍️ Nearby Shops
 Esta es una aplicación mobil que permite a sus usuarios encontrar tiendas y restaurantes
