@@ -27,4 +27,4 @@ Como desarrollador, al ver este proyecto y realizar los analisis que se han veni
 importancia de mantener una deuda tecnica casi nula en cada proyecto que se trabaje para garantizar la mantenibilidad
 de los mismos y evitar situaciones como la que estoy viviendo con la reduccion de deuda tecnica en este proyecto.
 
-[🏠 Índice](./index.html) | [🔙](./static-analysis.html) | [🔜](./devex-ai.html)
+[🏠](./index.html) | [🔙](./static-analysis.html) | [🔜](./devex-ai.html)

@@ -90,4 +90,4 @@ mejoras mencionadas, aprender nuevas formas de realizar refactorizaciones y prue
 unitarias, junto con la implementacion de varios patrones de diseño y aplicabilidad de
 principios SOLID.
 
-[🏠 Índice](./index.html) | [🔙](./devex-ai.html) | [🔜](./github-actions.html)
+[🏠](./index.html) | [🔙](./devex-ai.html) | [🔜](./github-actions.html)

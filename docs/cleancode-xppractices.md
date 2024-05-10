@@ -31,4 +31,4 @@
   arquitectura orientada a microservicios, y en segundo lugar, una arquitectura limpia 
   (arquitectura hexagonal) para que el proyecto sea mas simple y facil de entender.
 
-[🏠 Índice](./index.html) | [🔙](./refactoring-codesmells.html) | [🔜](./testing-debt.html)
+[🏠](./index.html) | [🔙](./refactoring-codesmells.html) | [🔜](./testing-debt.html)

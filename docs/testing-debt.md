@@ -76,4 +76,4 @@ public void testUpdateItemSpec() {
     assertEquals(itemSpec, result);
 }
 ```
-[🏠 Índice](./index.html) | [🔙](./testing-debt.html) | [🔜](./static-analysis.html)
+[🏠](./index.html) | [🔙](./testing-debt.html) | [🔜](./static-analysis.html)

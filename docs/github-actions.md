@@ -47,5 +47,5 @@ Gracias a esto se genero un excelente pipeline que permitia la validacion de pru
 
 Esto, ademas de permitirnos validar que todo aquel codigo nuevo que se vaya a añadir sea automaticamente verificado por las herramientas anteriormente mencionadas, busca tener reglas de integracion como se muestra en la primera imagen, en donde dos compañeros de equipo deben de aprobar los cambios que se añadiran, lo cual hara que se tenga una mayor seguridad a la hora de realizar estas integraciones.
 
-[🏠 Índice](./index.html) | [🔙](./github-actions.html) 
+[🏠](./index.html) | [🔙](./github-actions.html) 
 
