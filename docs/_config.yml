@@ -1,3 +1,4 @@
-theme: jekyll-theme-architect
 title: Nearby Shops
 description: Proyecto del curso de Calidad de Software y Gestión de Deuda Técnica
+show_downloads: true
+theme: jekyll-theme-architect
